@@ -9,7 +9,7 @@ public class TV {
 	public Control control;
 	public static int numTV;
 	public TV(Marca m, boolean e){
-		marca = m; estado= e;
+		marca = m; estado= e; numTV ++;
 	}
 	public void setMarca(Marca m) {
 		marca = m;
