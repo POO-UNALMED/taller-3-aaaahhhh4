@@ -1,7 +1,7 @@
 package taller3.televisores;
 
 public class Control {
-	public TV tv;
+	private TV tv;
 	public void setTv(TV t) {
 		tv = t;
 	}
